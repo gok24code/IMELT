@@ -10,8 +10,10 @@
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "This app uses your location to show you on the map."
-      }
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show you on the map.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.gok24code.IMELT"
     },
     "android": {
       "adaptiveIcon": {
@@ -54,6 +56,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "89635550-4a84-40bd-965b-d30853a408f5"
+      }
     }
   }
 }
